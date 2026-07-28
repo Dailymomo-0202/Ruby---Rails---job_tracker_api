@@ -1,24 +1,31 @@
-# README
+# Job Tracker API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails API application for tracking job applications.
 
-Things you may want to cover:
+## Tech Stack
 
-* Ruby version
+- Ruby on Rails 8
+- Ruby 3.4
+- SQLite
+- RESTful API
+- Minitest
 
-* System dependencies
+## Features
 
-* Configuration
+- Create job applications
+- Track application status
+- Salary expectation management
+- Validation for company and status
+- Automated model tests
 
-* Database creation
+## API Endpoints
 
-* Database initialization
+POST /job_applications
 
-* How to run the test suite
+GET /job_applications
 
-* Services (job queues, cache servers, search engines, etc.)
+GET /job_applications/:id
 
-* Deployment instructions
+PATCH /job_applications/:id
 
-* ...
+DELETE /job_applications/:id
